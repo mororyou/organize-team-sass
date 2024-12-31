@@ -14,33 +14,44 @@ A modern, production-ready template for building full-stack React applications u
 - 🎉 TailwindCSS for styling
 - 📖 [React Router docs](https://reactrouter.com/)
 
-## Getting Started
+## Use Library
 
-### Installation
+### Router
 
-Install the dependencies:
+- React Router v7
 
-```bash
-npm install
-```
+### UI / Style
 
-### Development
+- Tailwind CSS
+- tailwind-merge
+- Shadcn/ui
 
-Start the development server with HMR:
+### ORM / DB
 
-```bash
-npm run dev
-```
+- drizzle
+- drizzle-kit
+- postgress
 
-Your application will be available at `http://localhost:5173`.
+### Schema
 
-## Building for Production
+- zod
 
-Create a production build:
+### Testing
 
-```bash
-npm run build
-```
+- vitest
+
+### Etc
+
+- ts-oss/env-core
+- neverthrow
+- ts-pattern
+
+### Linter / Formatter
+
+- Prettier
+- ESLint
+
+---
 
 ## Deployment
 
