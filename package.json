@@ -11,7 +11,8 @@
     "test": "vitest --run",
     "test:ui": "vitest --ui",
     "test:cov": "vitest --coverage",
-    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint ."
+    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
@@ -56,7 +57,9 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.9.0",
+    "husky": "^8.0.0",
     "jsdom": "^25.0.1",
+    "lint-staged": "^15.3.0",
     "postcss": "^8.4.49",
     "prettier": "^3.4.2",
     "prettier-plugin-organize-imports": "^4.1.0",
