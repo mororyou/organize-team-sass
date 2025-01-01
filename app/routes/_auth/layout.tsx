@@ -9,12 +9,10 @@ export async function loader(args: Route.LoaderArgs) {
 
 export default function AuthLayout({ loaderData }: Route.ComponentProps) {
   return (
-    <ClerkProvider
-      loaderData={loaderData}
-      signUpFallbackRedirectUrl="/sign-up"
-      signInFallbackRedirectUrl="/sign-in"
-    >
-      <Outlet />;
+    <ClerkProvider loaderData={loaderData} signInFallbackRedirectUrl="/sign-in">
+      <main className="flex h-screen flex-col items-center justify-center">
+        <Outlet />
+      </main>
     </ClerkProvider>
   );
 }
